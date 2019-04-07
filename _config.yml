@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: kkkkk's blog
 subtitle:
 description:
 keywords:
-author: John Doe
+author: zxkkkkk
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://zxkkkkk.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -73,9 +73,17 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:zxkkkkk/zxkkkkk.github.io.git
+  branch: master
