@@ -99,8 +99,8 @@ creative_commons:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/zxkkkkk
   title: Follow me on GitHub
 
 
@@ -178,8 +178,8 @@ menu_settings:
 
 # Schemes
 # scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+# scheme: Mist
+# scheme: Pisces
 scheme: Gemini
 
 
@@ -197,7 +197,7 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/yourname || github
+  GitHub: https://github.com/zxkkkkk || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
@@ -341,7 +341,7 @@ codeblock:
   border_radius:
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result
     show_result: false
     # Style: only 'flat' is currently available, leave it blank if you prefer default theme
@@ -363,7 +363,7 @@ reward_settings:
 
 reward:
   #wechatpay: /images/wechatpay.png
-  #alipay: /images/alipay.png
+  # alipay: /images/alipay.png
   #bitcoin: /images/bitcoin.png
 
 # Related popular posts
@@ -383,7 +383,7 @@ related_posts:
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
   enable: false
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source.
+  url: https://github.com/zxkkkkk/zxkkkkk.github.io/tree/master # Link for view source.
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit.
 
 
@@ -700,7 +700,7 @@ gitalk:
 # Likely supports four looks, nine social networks, any button text
 # You are free to modify the text value and order of any network
 likely:
-  enable: false
+  enable: true
   look: normal # available values: normal, light, small, big
   networks:
     twitter: Tweet

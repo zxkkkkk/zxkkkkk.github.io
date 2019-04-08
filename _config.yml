@@ -86,4 +86,4 @@ search:
 deploy:
   type: git
   repo: git@github.com:zxkkkkk/zxkkkkk.github.io.git
-  branch: deploy
+  branch: master
